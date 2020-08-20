@@ -1,0 +1,28 @@
+{
+  "obj": {
+    "router": [
+      {
+        "path": "/",
+        "component": "Layout",
+        "name": "index",
+        "meta": "null",
+        "children": [
+          {
+            "path": "/about",
+            "component": "About",
+            "name": "about",
+            "meta": {
+              "id": 640,
+              "groupId": 9,
+              "title": "节点管理",
+              "icon": "null",
+              "display": 1,
+              "isRoute": 1
+            },
+            "children": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "obj": [
+    {
+      "id": 14,
+      "name": "Customer",
+      "title": "客户中心",
+      "target": "mainRigh",
+      "url": "#",
+      "icoCss": "layui-icon-username",
+      "delFlag": 0,
+      "sortNo": 0,
+      "createMan": 1,
+      "createTime": "2019-05-05T11:30:06"
+      },
+      {
+      "id": 9,
+      "name": "System",
+      "title": "系统设置",
+      "target": "123",
+      "url": "#",
+      "icoCss": "fa-gears",
+      "delFlag": 0,
+      "sortNo": 1,
+      "createMan": 1,
+      "createTime": "2019-05-05T11:29:56"
+      }
+  ]
+}
