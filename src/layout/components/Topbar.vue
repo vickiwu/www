@@ -57,7 +57,7 @@ export default {
   },
   data() {
     return {
-      routes: constantRoutes
+      routes: this.$store.state.permission.routes
     }
   },
   computed: {

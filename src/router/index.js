@@ -52,8 +52,14 @@ export const constantRoutes = [
   //     name: 'Dashboard',
   //     component: () => import('@/views/dashboard/index'),
   //     meta: { title: 'Dashboard', icon: 'dashboard' }
+  //   },
+  //   {
+  //     path: 'dashboard2',
+  //     name: 'Dashboard2',
+  //     component: () => import('@/views/dashboard/index'),
+  //     meta: { title: 'Dashboard2', icon: 'dashboard' }
   //   }]
-  // }
+  // },
 
   // {
   //   path: '/example',
@@ -156,8 +162,8 @@ export const constantRoutes = [
   //       meta: { title: '外部链接' }
   //     }
   //   ]
-  // }
-  // 404 page must be placed at the end !!!
+  // },
+  // // 404 page must be placed at the end !!!
   // { path: '*', redirect: '/404', hidden: true }
 ]
 

@@ -32,12 +32,11 @@ const actions = {
   login({ commit, dispatch }, userInfo) {
     const { username, password } = userInfo
     return new Promise((resolve, reject) => {
-      login({ username: username.trim(), password: password }).then(response => {
+      login({ username: username.trim(), password: password }).then(async response => {
         const { data } = response
         commit('SET_TOKEN', data.token)
-        console.log(data, data.token, 'ddddd')
         // 登录完成后，根据token获取该用户路由
-        dispatch('permission/getRoutes', data.token, { root: true })
+        await dispatch('permission/getRoutes', data.token, { root: true })
         setToken(data.token)
         resolve()
       }).catch(error => {
