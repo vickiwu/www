@@ -1,8 +1,8 @@
 # 项目说明
 
-> 这是一个极简的 vue admin 管理后台，基于vue-admin-template进行了细节改造，主要是把侧边导航改造为了顶部和侧边两个导航。
+> 项目参考花裤衩大佬的vue-element-admin [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
 >
-> 本项目默认开启了css：sourceMap和devtool('source-map')，便于在开发中调试，除非编译速度过慢，否则开发环境不建议修改。
+> 添加动态路由，顶部导航
 
 ## IDE
 
