@@ -10,10 +10,10 @@ const mocks = [
 ]
 
 // for front mock
-// please use it cautiously, it will redefine XMLHttpRequest,
-// which will cause many of your third-party libraries to be invalidated(like progress event).
+// 请谨慎使用，它将重新定义XMLHttpRequest,
+// 这将导致您的许多第三方库失效（例如progress事件）。
 export function mockXHR() {
-  // mock patch
+  // mock 补丁
   // https://github.com/nuysoft/Mock/issues/300
   Mock.XHR.prototype.proxy_send = Mock.XHR.prototype.send
   Mock.XHR.prototype.send = function() {
@@ -50,7 +50,7 @@ export function mockXHR() {
   }
 }
 
-// for mock server
+// 用于模拟服务器
 const responseFake = (url, type, respond) => {
   return {
     url: new RegExp(`${process.env.VUE_APP_BASE_API}${url}`),

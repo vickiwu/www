@@ -25,5 +25,19 @@ export default [
         }
       }
     }
+  },
+  {
+    url: '/staff/deleteById',
+    type: 'get',
+    response: config => {
+      return {
+        code: 20000,
+        data: {
+          total: 'items.length',
+          items: 'items'
+        }
+      }
+    }
   }
+
 ]

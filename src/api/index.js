@@ -3,8 +3,11 @@ api接口的统一出口
 */
 
 import example from './example'
+import user from './user'
+import table from './table'
 
 export default {
-  example
-  // xxxx
+  example,
+  table,
+  user
 }

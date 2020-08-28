@@ -65,6 +65,7 @@ export default {
   },
   created() {
     this.fetchData()
+    this.$api.example.deleteByStaffInfo(1)
   },
   methods: {
     fetchData() {

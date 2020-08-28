@@ -152,8 +152,10 @@ export default {
       return item.path
     },
     handleSelect(key, keyPath) {
+      console.log(key, keyPath, 'key, keyPath')
       // 把选中路由的子路由保存store
       const route = this.routes.find(item => item.path === key)
+      console.log(route, 'route')
       this.$store.commit('permission/SET_CURRENT_ROUTES', route)
       this.setSidebarHide(route)
     },
